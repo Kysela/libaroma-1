@@ -8,7 +8,7 @@ echo Compiling Libaroma Runtime
   -save-temps ^
   -fdata-sections -ffunction-sections -Wl,--gc-sections ^
   -D_GLIBCXX_DEBUG_PEDANTIC -D_GLIBCXX_DEBUG ^
-  -fPIC -DPIC -Wl,-s -Wall -Wextra -Wshadow -Werror -Wno-unused-parameter ^
+  -fPIC -DPIC -Wl,-s -Wall -Wextra -Wshadow -Wno-unused-parameter ^
  ^
   %LIBAROMA_CFLAGS% ^
  ^

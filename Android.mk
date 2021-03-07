@@ -110,7 +110,7 @@ LIBAROMA_MK_MINZIP_LIB := libminzip_libaroma
   LOCAL_CFLAGS := \
     -O3 \
     -ffunction-sections -Wl,--gc-sections \
-    -fPIC -DPIC -Wl,-s -Wall -Wextra -Wshadow -Werror -Wno-unused-parameter
+    -fPIC -DPIC -Wl,-s -Wall -Wextra -Wshadow -Wno-unused-parameter
   
   ##
   ## static libraries

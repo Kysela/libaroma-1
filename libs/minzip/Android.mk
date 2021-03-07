@@ -18,6 +18,6 @@ LOCAL_MODULE := libminzip
 
 LOCAL_CLANG := true
 
-LOCAL_CFLAGS += -Werror -Wall
+LOCAL_CFLAGS += -Wall
 
 include $(BUILD_STATIC_LIBRARY)

@@ -6,7 +6,7 @@ echo Compiling TEST GRAPH ONLY
   -Os ^
   -fdata-sections -ffunction-sections -Wl,--gc-sections -Wl,--strip-all ^
   -D_GLIBCXX_DEBUG_PEDANTIC -D_GLIBCXX_DEBUG ^
-  -fPIC -DPIC -Wl,-s -Werror ^
+  -fPIC -DPIC -Wl,-s ^
   -ftree-vectorize -mvectorize-with-neon-quad ^
   -funsafe-math-optimizations ^
   -fopenmp -mfloat-abi=hard -mfpu=neon ^

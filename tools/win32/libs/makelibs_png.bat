@@ -6,7 +6,7 @@ echo Compiling PNG
   -save-temps ^
   -fdata-sections -ffunction-sections -Wl,--gc-sections ^
   -D_GLIBCXX_DEBUG_PEDANTIC -D_GLIBCXX_DEBUG ^
-  -fPIC -DPIC -Wl,-s -Werror ^
+  -fPIC -DPIC -Wl,-s ^
  ^
   %LIBAROMA_CFLAGS% ^
  ^
